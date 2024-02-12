@@ -1,0 +1,8 @@
+{
+  "classes": {
+    "form": "aweb-form",
+    "input": "aweb-form__input",
+    "submit": "aweb-form__submit-btn",
+    "captcha": ""
+  }
+}
