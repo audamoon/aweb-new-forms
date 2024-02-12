@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,7 +9,7 @@
 
 <body>
     <div class="form">
-        <form class="aweb-form">
+        <form class="aweb-form" id="aweb-1">
             <div class="aweb-form__container">
                 <div class="aweb-form__input--wrapper">
                     <label>Имя</label>
@@ -30,15 +31,14 @@
                     <label>Услуга</label>
                     <input class="aweb-form__input" type="text" name="form_service">
                 </div>
-                <div class="aweb-form__submit-btn">Отправить</div>
+                <div class="aweb-form__submit-btn" id="submit-1">Отправить</div>
             </div>
 
         </form>
     </div>
+    <script src="/assets/js/app/FormInit.js"></script>
     <script src="/assets/js/app/AjaxController.js"></script>
-    <script src="/assets/js/app/FormCollector.js"></script>
-    <script src="/assets/js/app/ModalManager.js"></script>
-    <script src="/assets/js/app/Validator.js"></script>
     <script src="/assets/js/app/main.js"></script>
 </body>
+
 </html>
