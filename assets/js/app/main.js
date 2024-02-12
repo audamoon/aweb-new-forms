@@ -1,5 +1,2 @@
-let collector = new FormCollector();
-let btn = document.querySelector('.aweb-form__submit-btn');
-btn.addEventListener("click", ()=>{
-    collector.collectForms();
-})
+let form1 = new AwebForm();
+form1.init("aweb-1", "submit-1");

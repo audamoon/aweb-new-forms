@@ -1,30 +1,29 @@
 "use strict";
-class Validator
-{
-    constructor() {
-    }
-
-    validate()
-    {
+class Validator {
+    validate(element) {
     }
 }
 
-class EmailValidator extends Validator
-{
+class EmailValidator extends Validator {
+    validate(element) {
 
+    }
 }
 
-class TextValidator extends Validator
-{
+class TextValidator extends Validator {
+    validate(element) {
 
+    }
 }
 
-class PhoneValidator extends Validator
-{
+class PhoneValidator extends Validator {
+    validate(element) {
 
+    }
 }
 
-class FileValidator extends Validator
-{
+class FileValidator extends Validator {
+    validate(element) {
 
+    }
 }
